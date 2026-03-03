@@ -82,15 +82,22 @@ Posible incorporación de nuevas variables temporales como:
 El notebook define estas variables como base del análisis de clustering:
 
 -`monthly_nomad_cost:` coste mensual total estimado para nómada
+
 -`nomad_housing_cost`: coste medio del alquiler de un piso de 1 habitación
+
 -`basic_basket_index`: cesta básica de la compra en supermercados
+
 -`daily_meal_cost`: coste diario de comidas fuera de casa
+
 -`local_purchasing_power`: poder adquisitivo local
+
 -`housing_salary_ratio`: % salario destinado a vivienda
+
 -`cappuccino_index`
 
 *Variable objetivo para regresión*
-`digital_nomad_score`
+
+- `digital_nomad_score`
 
 ---
 
