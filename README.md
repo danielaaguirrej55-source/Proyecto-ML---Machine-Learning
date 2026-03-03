@@ -1,4 +1,4 @@
-![Proyecto de Machine Learning: Nomadismo digital y coste de vida](./src/img/EDA-nomadismo-digital.jpg)
+![Nomadismo digital](./src/img/ML%20nomadismo.jpg)
 
 ## Proyecto de Machine Learning: nomadismo digital y coste de vida global
 
