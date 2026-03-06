@@ -1,9 +1,9 @@
 ![Nomadismo digital](./src/img/ML%20nomadismo.jpg)
 
-## Proyecto de Machine Learning: nomadismo digital y coste de vida global
+# Proyecto de Machine Learning: nomadismo digital y coste de vida global
 
 
-### Descripción del proyecto:
+## Descripción del proyecto:
 
 Este proyecto analiza el atractivo de ciudades y países para nómadas digitales a partir de variables relacionadas con coste de vida, conectividad, bienestar y capacidad adquisitiva.
 
@@ -15,7 +15,7 @@ El proyecto parte de un trabajo previo de análisis exploratorio (EDA) y extiend
 
 ---
 
-### Problema de negocio:
+``## Problema de negocio:``
 
 El nomadismo digital es una tendencia creciente: cada vez más profesionales trabajan en remoto desde distintos lugares del mundo. Sin embargo, elegir un destino no depende de una sola variable, sino de la interacción entre múltiples factores como:
 
@@ -29,7 +29,7 @@ coste de vida, velocidad de internet, vivienda, seguridad, bienestar social y fa
 
 ---
 
-## Objetivos:
+``## Objetivos:``
 
 - Analizar variables clave asociadas al coste de vida y calidad de vida.
 
@@ -43,19 +43,19 @@ coste de vida, velocidad de internet, vivienda, seguridad, bienestar social y fa
 
 ---
 
-## Enfoque metodológico: 
+``### Enfoque metodológico:``
 
 El notebook plantea un pipeline híbrido en tres fases:
 
-### *Fase 1 — Clustering*
+- *Fase 1 —> Clustering*
 
 Segmentación de 4,742 ciudades en perfiles nómadas usando variables agregadas de coste de vida.
 
-### *Fase 2 — Regresión*
+- *Fase 2 —> Regresión*
 
 Predicción del digital_nomad_score de 81 países a partir de variables de coste, conectividad, bienestar y los perfiles derivados del clustering.
 
-### *Fase 3 — Iteración futura*
+- *Fase 3 —> Iteración futura*
 
 Posible incorporación de nuevas variables temporales como:
 
@@ -63,7 +63,7 @@ Posible incorporación de nuevas variables temporales como:
 
 ---
 
-### Datasets utilizados: 
+``### Datasets utilizados:``
 
 
 | Dataset | Registros | Variables | Fuente |
@@ -102,13 +102,13 @@ El notebook define estas variables como base del análisis de clustering:
 ---
 
 
-## Hallazgos previos del EDA que motivan el proyecto:
+``### Hallazgos previos del EDA que motivan el proyecto:``
 
 El notebook recoge varios hallazgos del análisis exploratorio previo, entre ellos:
 
 - La conectividad aparece como el predictor más fuerte del score nómada, el bienestar social también muestra una correlación alta, los destinos mejor valorados tienden a ser más caros, la seguridad no muestra una correlación fuerte y existen posibles outliers de “value for money” (bajo coste y alto score).
 
-### Análisis exploratorio incluido en este notebook:
+``### Análisis exploratorio incluido en este notebook:``
 
 En este notebook se realiza una preparación inicial orientada a Machine Learning:
 
@@ -123,7 +123,7 @@ En este notebook se realiza una preparación inicial orientada a Machine Learnin
 
 ---
 
-### Tecnologías y librerías
+``### Tecnologías y librerías.``
 
 Principales herramientas utilizadas:
 
@@ -138,7 +138,7 @@ Principales herramientas utilizadas:
 
 ---
 
-### Estructura del trabajo:
+``### Estructura del trabajo:``
 
 1.- Carga y revisión de datos.
 
@@ -155,25 +155,25 @@ Principales herramientas utilizadas:
 
 ---
 
-## Estado actual del proyecto:
+``### Estado actual del proyecto:``
 
-*El notebook compartido muestra principalmente la fase de preparación y exploración de datos para el proyecto de Machine Learning. En el contenido visible se define claramente la estrategia analítica y las variables, pero no se observan aún resultados finales de entrenamiento, métricas comparativas ni modelos persistidos dentro de esta parte del notebook*.
+*El proyecto se encuentra en una fase avanzada de desarrollo. Se ha completado la integración de datos procedentes de múltiples fuentes, así como la limpieza, transformación y estandarización de variables relevantes para el análisis. Posteriormente, se realizó el preprocesamiento del dataset, incluyendo tratamiento de variables, depuración de columnas redundantes y preparación para modelado. En la fase analítica, se llevó a cabo el entrenamiento y evaluación de un modelo de regresión lineal, validado mediante partición train/test y métricas de rendimiento satisfactorias. En este punto, el proyecto ya permite identificar relaciones relevantes entre variables explicativas y la variable objetivo, quedando abierto a futuras mejoras como comparación con modelos adicionales, ajuste fino de variables o ampliación del análisis interpretativo.*
 
 
 ---
 
-### Autores del proyecto
+``### Autores del proyecto:``
 
 | Autor | LinkedIn | GitHub |
 |-------|----------|--------|
-| **Daniela Aguirre** | [LinkedIn](https://www.linkedin.com/in/alicia-aguirre-5b5a57188/) | - |
-| **Agustin Arganin Castillo** | [LinkedIn] | - |
+| **Daniela Aguirre** | [LinkedIn](https://www.linkedin.com/in/alicia-aguirre-5b5a57188/) | [GitHub](https://github.com/danielaaguirrej55-source) |
+| **Agustin Arganin Castillo** | [LinkedIn](https://www.linkedin.com/in/arganin-agustin/) | [GitHub](https://github.com/aaerror) |
 | **Juan F. Cía** | [LinkedIn](https://www.linkedin.com/in/juanfcia/) | [GitHub](https://github.com/juanfcia) |
 
 ---
 
-#### Proyecto base relacionado
+``### Proyecto base relacionado:``
 
 - Este trabajo se apoya en el análisis exploratorio previo:
 
-*EDA Nomadismo Digital*
+`EDA Nomadismo Digital`
